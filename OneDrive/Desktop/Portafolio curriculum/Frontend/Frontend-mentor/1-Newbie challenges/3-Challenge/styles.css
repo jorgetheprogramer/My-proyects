@@ -1,0 +1,371 @@
+
+/*FORMATO DE LETRA*/
+
+
+@font-face {
+    font-family: "Hanken Grotesk-variable" ;
+    src: url(3-Challenge/results-summary-component-main/assets/fonts/HankenGrotesk-VariableFont_wght.ttf) format(truetype); 
+    font-weight: 500;
+}
+
+@font-face {
+    font-family: "Hanken Grotesk-bold" ;
+    src: url(3-Challenge/results-summary-component-main/assets/fonts/static/HankenGrotesk-Bold.ttf) format(truetype); 
+    font-weight: bold;
+}
+
+@font-face {
+    font-family: "Hanken Grotesk-extra-bold" ;
+    src: url(3-Challenge/results-summary-component-main/assets/fonts/static/HankenGrotesk-ExtraBold.ttf) format(truetype); 
+    font-weight:bolder;
+}
+
+@font-face {
+    font-family: "Hanken Grotesk-bold" ;
+    src: url(3-Challenge/results-summary-component-main/assets/fonts/static/HankenGrotesk-Medium.ttf) format(truetype); 
+    font-weight: normal;
+}
+
+
+
+/*COLORES DE TEXTO*/
+
+
+:root{
+    --color-red: hsl(0, 100%, 67%);
+    --color-orange:hsl(39, 100%, 56%);
+    --color-green:hsl(166, 100%, 37%);
+    --color-blue:hsl(234, 85%, 45%);
+
+    --color-light-purple:hsl(252, 100%, 67%);
+    --color-bg-blue:hsl(241, 81%, 54%);
+
+    --color-dark-purple:hsla(256, 72%, 46%, 1);
+    --color-dark:hsla(241, 72%, 46%, 0);
+
+    --color-white:hsl(0, 0%, 100%);
+    --color-white-blue:hsl(221, 100%, 96%);
+    --color-light-violet:hsl(241, 100%, 89%);
+    --color-blue-gray:hsl(224, 30%, 27%);
+}
+
+
+
+/*ESTILOS GENERALES*/
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body, html {
+    height: 100%;
+}
+
+
+
+/*INICIO PÁGINA WEB*/
+
+body {
+    display: flex;
+    justify-content: center; 
+    align-items: center;     
+}
+
+.web__container{
+    width: 45%;
+    height: 60vh;
+
+   border-radius: 2rem;
+   
+
+   display: grid;
+   grid-template-columns: 1fr 1fr;
+
+   box-shadow: 4px 7px 10px 4px var(--color-light-violet);
+
+   
+}
+
+.container__left{
+    display: grid;
+    place-items: center ;
+
+    background-image: -webkit-linear-gradient(var(--color-light-purple), var(--color-blue));
+    border-radius: 2rem;
+
+    .left__tittle{
+
+        color: var(--color-white);
+        opacity: 0.6;
+    
+        margin-top: -2rem;
+    
+    }
+    
+    
+    .left__result{
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+
+    
+        width: 10rem;
+        height: 10rem;
+       
+
+        margin-top: -3rem;
+        border-radius: 10rem;
+
+        background-image: -webkit-linear-gradient(var(--color-dark-purple), var(--color-dark));
+
+        
+
+        .left__score{
+            font-size: 4rem;
+            color: var(--color-white);
+
+            font-family: "Hanken Grotesk-bold" ;
+
+            
+        }
+
+        .left__out-of{
+           font-size: 1rem;
+           font-family: "Hanken Grotesk-bold" ;
+
+           color: var(--color-white);
+           opacity: 0.6;
+        }
+    
+        
+    }
+
+    .left__aclaration{
+
+        text-align: center;
+
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+       
+
+        
+
+        .left__subtittle{
+            margin-top: -4rem;
+            margin-bottom: 1rem;
+            color: var(--color-white);
+            font-size: 2rem;
+            font-family: "Hanken Grotesk-bold" ;
+        }
+
+        .left__text{
+            width: 60%;
+
+            color: var(--color-white);
+            font-family: "Hanken Grotesk-bold" ;
+
+            opacity: 0.5;
+
+        }
+    }
+    
+}
+
+.container__right{
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   
+
+    background-color: var(--color-white);
+    border-radius: 0 2rem 2rem 0;
+   
+
+
+    
+
+    .right__tittle{
+        width: 80%;
+        text-align: left;
+        margin-top: 1rem;
+        
+        color: var(--color-blue-gray);
+    }
+
+    .right__skills{
+        width: 70%;
+
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 1rem;
+
+        margin-top: 2rem;
+    }
+
+    .right__skill{
+        width: 100%;
+        
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        gap: 4rem;
+             
+       
+        .skill__score{
+            width: 30%;
+            font-family: "Hanken Grotesk-extra-bold" ;
+            word-spacing: 3px;
+
+            color: var(--color-blue-gray);
+            text-align: center;
+            
+        }
+
+        .socre__color{
+            opacity: 0.5;
+        }
+        
+    }
+
+
+    .right__skill1{
+        width: 100%;
+        background-color: hsl(0, 100%, 94%);
+        padding: 1rem;
+        border-radius: 5px;
+       
+        
+    }
+
+    .right__skill2{
+        background-color:  hsl(39, 100%, 94%);
+        padding: 1rem;
+        border-radius: 5px;
+       
+        
+    }
+
+    .right__skill3{
+        background-color: hsl(166, 100%, 94%);
+        padding: 1rem;
+        border-radius: 5px;
+        
+        
+    }
+
+    .right__skill4{
+        background-color: hsl(234, 100%, 94%);
+        padding: 1rem;
+        border-radius: 5px;
+        
+        
+    }
+
+
+
+    .skill__name1{
+        color:var(--color-red);
+        
+        
+        
+    }
+
+    .skill__name1::before{
+        content: url(3-Challenge/results-summary-component-main/assets/images/icon-reaction.svg);
+        position: absolute;
+        left: 53%;
+        
+        
+    }
+
+    .skill__name2{
+        color: var(--color-orange);
+       
+    }
+
+    .skill__name2::before{
+        content: url(3-Challenge/results-summary-component-main/assets/images/icon-memory.svg);
+        position: absolute;
+        left: 53%;
+        
+    }
+
+
+    .skill__name3{
+        color: var(--color-green);
+        
+    }
+
+    .skill__name3::before{
+        content: url(3-Challenge/results-summary-component-main/assets/images/icon-verbal.svg);
+        position: absolute;
+        left: 53%;
+        
+    }
+
+
+    .skill__name4{
+        color: var(--color-blue);
+       
+    }
+
+    .skill__name4::before{
+        content: url(3-Challenge/results-summary-component-main/assets/images/icon-visual.svg);
+        position: absolute;
+        left: 53%;
+        
+    }
+
+    
+    .right__button{
+        width: 80%;
+        text-align: center;
+        margin-top: 1rem;
+
+        border: 1px solid transparent;
+        border-radius: 2rem;
+        background-color: var(--color-blue-gray);
+        padding: 1rem;
+
+        .button__link{
+            color: var(--color-white);
+            font-size: 1rem;
+            text-decoration: none;
+        }
+
+
+    
+    }
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

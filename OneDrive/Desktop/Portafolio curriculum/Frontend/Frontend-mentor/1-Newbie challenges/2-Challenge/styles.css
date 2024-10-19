@@ -1,0 +1,188 @@
+/*ESTILOS GENERALES*/
+
+/*FUENTES DE LA PÁGINA*/
+
+@font-face {
+    font-family: "Inter-variable";
+    font-weight: 100 900;
+    font-style: normal;
+    src: url('social-links-profile-main/assets/fonts/Inter-VariableFont_slnt,wght.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: "Inter-bold";
+    font-weight: bold;
+    src: url('social-links-profile-main/assets/fonts/static/Inter-Bold.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: "Inter-normal";
+    font-weight: normal;
+    src: url('social-links-profile-main/assets/fonts/static/Inter-Regular.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: "Inter-600";
+    font-weight: 600;
+    src: url('social-links-profile-main/assets/fonts/static/Inter-SemiBold.ttf') format('truetype');
+}
+
+/*FUENTES DE LA PÁGINA*/
+
+
+/*COLORES DE LA PÁGINA*/
+
+:root{
+    --text-color: hsl(0, 0%, 100%);
+    --subtittle-color: hsl(75, 94%, 57%);
+
+    --box-color:hsl(0, 0%, 20%);
+    --content-color:hsl(0, 0%, 12%);
+    --page-color: hsl(0, 0%, 8%);
+    
+}
+
+
+
+/*INICIO DE LA PÁGINA WEB*/
+
+*{
+    margin: 0;
+    padding: 0;
+
+}
+
+
+
+
+.content__page{
+    width: 100%;
+    height: 100vh;
+    min-height: 100vh;
+
+
+    background-color: var(--page-color) ;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+
+}
+
+.page__profile{
+    background-color: var(--content-color);
+
+    width: 25%;
+    height: 750px;
+    max-height: 600px;
+
+    border-radius: 1rem;
+
+
+
+    
+}
+
+
+.profile__header{
+
+   
+
+    .profile__image-container{
+        width: 100%;
+        margin-top: 3rem;
+        
+        
+
+        display: flex;
+        justify-content: center;
+
+
+        .profile__img{
+
+            width: 100px;
+
+            border-radius: 10rem;
+
+        }
+        
+    }
+
+    .profile__presentation{
+
+        margin-top: 1.2rem;
+
+        text-align: center;
+
+        .profile__name{
+
+            color: var(--text-color);
+
+            font-family: "Inter-normal";
+
+            font-weight: 400;
+            font-size: 1.5rem;
+            
+           
+           
+        }
+
+        .profile__place{
+            margin-top: 0.5rem;
+
+            color: var(--subtittle-color);
+            font-family: "Inter-normal";
+            font-size: 0.8rem;
+
+
+        }
+
+        .profile__description{
+            margin-top: 1rem;
+
+            color: #ccc;
+        }
+
+        
+
+
+    }
+
+}
+
+.profile__content{
+
+    width: 100%;
+    height: 280px;
+
+    margin-top: 2rem;
+
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+  
+}
+
+.profile__social-media{
+    border: 1px solid var(--box-color);
+    border-radius: 0.5rem;
+    background-color: var(--box-color);
+
+    width: 80%;
+
+    text-align: center;
+    padding: 10px;
+
+   
+    
+}
+
+.profile__links{
+    text-decoration: none;
+    color: var(--text-color);
+}
+
+

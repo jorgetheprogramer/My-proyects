@@ -1,0 +1,186 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@100..900&display=swap');
+
+/* COLORS */
+
+:root{
+    --main-bg:hsl(233, 47%, 7%);
+    --card-bg:hsl(244, 38%, 16%);
+    --violet-color:hsl(277, 64%, 61%);
+    --white-header-stats:hsl(0, 0%, 100%);
+    --white-paragraph:hsla(0, 0%, 100%, 0.75);
+    --gray-stat-heading:hsla(0, 0%, 100%, 0.6);
+}
+
+*{
+    font-size: 15px;
+}
+
+body,html{
+
+    width: 100%;
+    height: 100%;
+    
+}
+
+.img__container{
+    width: 100%;
+    background-image: url(8-Challenge/stats-preview-card-component-main/images/image-header-desktop.jpg);
+    background-color: var(--violet-color);
+    background-blend-mode: multiply; 
+    border-radius: 0 1rem 1rem 0;
+   
+    
+}
+
+img{
+    width: 100%;
+}
+
+body{
+
+    margin: 0;
+    padding: 0;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    background-color: var(--main-bg);
+
+}
+
+.web__page{
+    width: 70%;
+    height: 60vh;
+    background-color: var(--card-bg);
+
+    display: flex;
+    flex-direction: row-reverse;
+
+    border-radius: 1rem;
+
+    .page__right{
+        display: flex;
+        flex: 50%;
+    }
+
+    .page__left{
+        display: flex;
+        flex: 50%;
+        flex-direction: column;
+        align-items: center;
+        
+
+        .page__header{
+            width: 80%;
+
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            flex: 70%;
+
+            .page__tittle{
+                font-size: 2.3rem;
+                color: var(--white-header-stats);
+                font-family: Inter ;
+            }
+
+            .tittle__color{
+                font-size: 2.3rem;
+                font-family: Inter ;
+            }
+
+            .page__text{
+                width: 80%;
+                font-size: 1.1rem;
+                color: var(--white-paragraph);
+            }
+        }
+
+        .page__stats{
+            width: 80%;
+
+            display: flex;
+            flex-direction: row;
+            justify-content: start;
+            align-items: start;
+            gap: 4rem;
+            flex: 30%;
+
+            .stats__companies{
+                .companies__number{
+                    font-size: 2rem;
+                    color: var(--white-header-stats);
+                    font-family: "Inter" ;
+                }
+
+                .companies__text{
+                    font-size: 0.9rem;
+                    color:  var(--white-paragraph);
+                    text-transform: uppercase;
+                    font-family: "Inter" ;
+                    margin-top: -1.4rem;
+                }
+
+
+
+                
+
+
+
+            }
+
+            .stats__templates{
+
+                .templates__number{
+                    font-size: 2rem;
+                    color: var(--white-header-stats);
+                    font-family: "Inter" ;
+                }
+
+                .templates__text{
+                    font-size: 0.9rem;
+                    color:  var(--white-paragraph);
+                    text-transform: uppercase;
+                    font-family: "Inter" ;
+                    margin-top: -1.4rem;
+                }
+
+            }
+
+
+
+
+            .stats__queries{
+
+                .queries__number{
+                    font-size: 2rem;
+                    color: var(--white-header-stats);
+                    font-family: "Inter" ;
+                }
+
+                .queries__text{
+                    font-size: 0.9rem;
+                    color:  var(--white-paragraph);
+                    text-transform: uppercase;
+                    font-family: "Inter" ;
+                    margin-top: -1.4rem;
+                }
+
+            }
+
+        }
+    }
+    
+}
+
+
+
+
+
+
+
+
+

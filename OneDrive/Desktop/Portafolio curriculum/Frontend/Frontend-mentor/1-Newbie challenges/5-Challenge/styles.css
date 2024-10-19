@@ -1,0 +1,199 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+
+
+
+/*Color Fonts*/
+
+:root{
+    --main-bg-color: hsl(217, 54%, 11%);
+    --card-bg-color: hsl(216, 50%, 16%);
+    --line-color: hsl(215, 32%, 27%);
+    --white-color:hsl(0, 0%, 100%);
+
+    --text-color: hsl(215, 51%, 70%);
+    --etf-color: hsl(178, 100%, 50%);  
+
+}
+
+*{
+    margin: 0;
+    padding: 0;
+
+    p{font-size: 18px;}
+    font-family: 'Outfit';
+
+}
+
+body,html{
+    height: 100%;
+}
+
+body{
+    width: 100%;
+    height: 100%;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    background-color: var(--main-bg-color);
+}
+
+.web__page{
+    background-color: var(--card-bg-color);
+    width: 20%;
+    height: 500px;
+
+    display: flex;
+    flex-direction:column;
+
+    border-radius: 1rem;
+    box-shadow: 
+    0px 25px 5px 15px #0C1729,
+    0px 40px 30px 40px #0d1b30,
+    0px -5px 30px 40px #0d1b30
+   
+
+    ;
+
+
+
+    .page__header{
+        display: flex;
+        flex: 50%;
+     
+        width: 90%;
+        
+        margin: auto;
+        margin-top: 1rem;
+        
+
+
+    }
+
+    .page__content{
+        display: flex;
+        flex-direction: column;
+        flex: 30%;
+
+        .content__tittle{
+            width: 90%;
+            margin: auto;
+            margin-top: 1rem;
+            
+
+            color: white;
+            font-size: 18px;
+        }
+
+        .content__text{
+            width: 90%;
+            margin: auto;
+            margin-top: 1rem;
+            
+
+            color: var(--text-color);
+            font-size: 16px;
+
+        }
+
+        .content__eth{
+            width: 85%;
+            margin: auto;
+            margin-top: 1rem;
+
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+
+            border-bottom: 1px solid var(--line-color);
+            padding-bottom: 1rem;
+
+            .eth__valor{
+                color: var(--etf-color);
+                font-size: 14px;
+                margin-left: 1rem;
+
+               
+            }
+
+            .eth__time{
+                color: var(--text-color);
+                font-size: 14px;
+               
+            }
+
+            .eth__clock{
+                position: absolute;
+                left: 53%;
+                top: 71%;
+                
+            }
+
+            .eth__icon{
+                position: absolute;
+                left: 41.5%;
+                top: 71%;
+            }
+        }
+
+        
+
+
+    }
+
+
+
+    .page__footer{
+        display: flex;
+        flex: 20%;
+        gap: 0.8rem;
+        
+        width: 87%;
+        margin: auto;
+        margin-top: 1rem;
+
+        .footer__text{
+            
+            color: var(--text-color);
+            font-size: 14px;
+            height: 30px;
+           
+            display: flex;
+            align-items: center;
+
+           
+            
+        }
+
+        .text__color{
+            color: var(--white-color);
+            font-size: 14px;
+            margin-left: 0.3rem;
+            
+        }
+    }
+
+
+    
+
+}
+
+.header__img{
+    width: 100%;
+
+   
+}
+
+.footer__img{
+    width: 25px;
+    height: 25px;
+
+    border: 1px solid var(--white-color);
+    border-radius: 1rem;
+}
+
+img{
+    border-radius: 0.5rem;
+   
+}

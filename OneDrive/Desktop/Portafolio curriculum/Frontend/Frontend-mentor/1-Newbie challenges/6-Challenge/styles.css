@@ -1,0 +1,180 @@
+/*ESTILOS DE LETRAS*/
+
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:ital,wght@0,300..900;1,300..900&display=swap');
+
+
+/*COLORES DE ESTILO*/
+
+:root{
+    --pale-blue-color: hsl(225, 100%, 94%);
+    --bright-blue:hsl(245, 75%, 52%);
+
+    --very-pale-blue:hsl(225, 100%, 98%);
+    --desaturated-blue:hsl(224, 23%, 55%);
+    --dark-blue:hsl(223, 47%, 23%);
+}
+
+
+body{
+    margin: 0;
+    padding: 0;
+}
+
+*{
+    p{
+        font-size: 16px;
+        font-family: 'Red Hat Display' ;
+    }
+}
+
+
+body, html{
+    width: 100%;
+    height: 100%;
+
+    overflow-x: hidden;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background-image: url(6-Challenge/order-summary-component-main/images/pattern-background-desktop.svg);
+    background-repeat: no-repeat;
+    background-color: var(--pale-blue-color);
+    background-size: 100rem;
+  
+    
+}
+
+img{
+    width: 100%;
+    border-radius: 1rem 1rem 0 0;
+}
+
+.web__page{
+    width: 25%;
+    height: 80vh;
+    background-color: white;
+    border-radius: 1rem;
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    .page__header{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        
+
+        .header__tittle{
+            margin-top: 2rem;
+            font-family: 'Red Hat Display';
+            color: var(--dark-blue);
+            font-weight: 900;
+            
+            
+        }
+
+        .header__text{
+            width: 80%;
+            text-align: center;
+            margin-top: -0.3rem;
+            color: var(--desaturated-blue);
+        }
+
+    }
+
+    .page__plan{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+
+        width: 85%;
+        background-color: var(--very-pale-blue);
+        border-radius: 1rem;
+
+        .plan__icon{
+            margin-left: -1rem;
+            
+           
+        }
+
+        .icon{
+            border-radius: 10rem;
+            background-color: var(--pale-blue-color);
+
+        }
+
+        .page__cuote{
+            margin-left: -3rem;
+
+          
+            .cuote__price{
+                margin-top: -10px;
+            }
+            
+        }
+
+        .page__change{
+            font-family: 'Red Hat Display' ;
+            font-weight: 900;
+            color: blueviolet;
+            text-decoration: underline;
+
+            .change__option{
+                font-size: 14px !important;
+                cursor: pointer;
+
+            }
+        }
+
+        
+
+      
+
+        
+    }
+
+    .page__payment{
+        width: 80%;
+
+    .payment__button{
+        width: 100%;
+        background-color: var(--bright-blue);
+
+        border-radius: 5px;
+        padding: 0.8rem 0;
+
+        text-align: center;
+        color: white;
+        font-size: 16px;
+        box-shadow: 0 8px 6px 0px #ccc;
+       
+       
+    }
+
+    .payment__cancel{
+        text-align: center;
+        margin-top: 1.5rem;
+        color: gray;
+        font-weight: 700;
+        font-size: 14px;
+        
+    }
+
+
+    }
+
+   
+
+
+}
+
+
+
+
+

@@ -1,0 +1,159 @@
+/* Añadir en styles.css o dentro de una etiqueta <style> en el <head> */
+
+@media (max-width: 1216px) {
+
+    body {
+        & .right-side {
+            & .Faqs__container {
+                .toggle-icon {
+                    display: flex;
+                    flex: 7%;
+                }
+            }
+        }
+    }
+
+}
+
+@media (max-width: 932px) {
+
+    body {
+        & .right-side {
+            & .Faqs__container {
+                .toggle-icon {
+                    display: flex;
+                    flex: 9%;
+                }
+            }
+        }
+    }
+
+}
+
+@media (max-width: 768px) {
+
+    body {
+        & .right-side {
+            & .Faqs__container {
+                .toggle-icon {
+                    display: flex;
+                    flex: 12%;
+                }
+            }
+        }
+    }
+
+    body {
+        & .right-side {
+            & .Faqs__container {
+                width: 66%;
+            }
+        }
+    }
+
+}
+
+
+@media (max-width: 573px) {
+
+    body {
+        & .right-side {
+            & .Faqs__container {
+                .toggle-icon {
+                    display: flex;
+                    flex: 12%;
+                }
+            }
+        }
+    }
+
+    body {
+        & .right-side {
+            & .Faqs__container {
+                width: 80%;
+            }
+        }
+    }
+
+}
+
+
+
+@media (max-width: 400px) {
+
+    body {
+        & .right-side {
+            & .Faqs__container {
+                .toggle-icon {
+                    display: flex;
+                    flex: 12%;
+                }
+            }
+        }
+    }
+
+    body {
+        & .right-side {
+            & .Faqs__container {
+                width: 90%;
+            }
+        }
+    }
+
+}
+
+
+
+@media (max-width: 354px) {
+
+    body {
+        & .right-side {
+            & .Faqs__container {
+                .toggle-icon {
+                    display: flex;
+                    flex: 16%;
+                }
+            }
+        }
+    }
+
+    body {
+        & .right-side {
+            & .Faqs__container {
+                width: 90%;
+            }
+        }
+    }
+
+}
+
+
+@media (max-width: 287px) {
+
+    body {
+        & .right-side {
+            & .Faqs__container {
+                .toggle-icon {
+                    display: flex;
+                    flex: 16%;
+                }
+            }
+        }
+    }
+
+    body {
+        & .right-side {
+            & .Faqs__container {
+                width: 90%;
+            }
+        }
+    }
+
+}
+
+
+
+
+
+
+

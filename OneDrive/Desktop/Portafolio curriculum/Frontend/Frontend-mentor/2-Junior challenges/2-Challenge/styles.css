@@ -1,0 +1,154 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+:root{
+    --gradient-cake:hsl(6, 100%, 80%);
+    --gradient-pink:hsl(335, 100%, 65%);
+
+    --pale-blue:hsl(243, 100%, 93%);
+    --gray-blue:hsl(229, 7%, 55%);
+    --dark-blue:hsl(228, 56%, 26%);
+    --very-dark-blue:hsl(229, 57%, 11%);
+}
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body, html{
+    width: 100%;
+    height: 100%;
+}
+
+body{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+    background-image: url(fylo-data-storage-component-master/images/bg-desktop.png) ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-position-x: 90%;
+    background-repeat: no-repeat;
+
+    font-size: 14px;
+}
+
+.web__page{
+    width: 70%;
+    height: 30vh;
+
+    display: flex;
+    flex-direction: row;
+    gap: 3rem;
+
+    .page__left{
+        display: flex;
+        flex-direction: column;
+        flex: 40%;
+        gap: 2rem;
+
+        background-color: var(--dark-blue);
+        padding: 3rem;
+        
+
+        border-radius: 1rem 8rem 1rem 1rem;
+
+
+        .left__content{
+            display: flex;
+            flex-direction: row;
+            gap: 2rem;
+
+
+           
+
+            .icon{
+                width: 50px;
+                background-color: var(--very-dark-blue);
+                color: #697ED4;
+                border-radius: 10px;
+                padding: 0.6rem;
+               
+                
+            }
+        }
+
+       
+    }
+
+    .page__right {
+        display: flex;
+        margin-top: 3rem;
+        flex-direction: column;
+        flex: 60%;
+        gap: 2rem;
+        background-color: var(--dark-blue);
+        padding: 3rem;
+        border-radius: 1rem 1rem 1rem 1rem;
+    
+        .right__content{
+            
+            display: flex;
+            flex-direction: column;
+
+            .right__header{
+                margin-bottom: 0.9rem;
+
+                .right__tittle{
+                    font-size: 18px;
+                    color: var(--pale-blue);
+                    font-family: 'Raleway';
+                    font-weight: 200;
+
+                    .tittle__color{
+                        font-weight: 700;
+                    }
+                }
+
+            }
+
+            .progress{
+                background-color: var(--very-dark-blue);
+
+                .progress-bar{
+                    background: linear-gradient( to right, var(--gradient-cake), var(--gradient-pink) );
+                    border-radius: 10px;
+                }
+               
+                
+            }
+
+            .bar__text{
+
+                display: flex;
+                flex-direction: row;
+                justify-content: space-between;
+                color: var(--pale-blue);
+                font-family: 'Raleway';
+               
+            }
+
+            
+            
+            
+           
+        }
+    }
+
+
+    
+
+
+    
+}
+
+
+
+
+

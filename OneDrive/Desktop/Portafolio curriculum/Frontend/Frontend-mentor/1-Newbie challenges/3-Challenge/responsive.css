@@ -1,0 +1,248 @@
+@media screen and (max-width: 1024px) {
+    .web__container {
+        width: 68%;
+
+    }
+
+    .container__right {
+        .skill__name1::before {
+            content: url(3-Challenge/results-summary-component-main/assets/images/icon-reaction.svg);
+            position: absolute;
+            left: 54%;
+        }
+    }
+
+        .container__right {
+            .skill__name2::before {
+                content: url(3-Challenge/results-summary-component-main/assets/images/icon-memory.svg);
+                position: absolute;
+                left: 54%;
+            }
+        }
+
+
+        .container__right {
+            .skill__name3::before {
+                content: url(3-Challenge/results-summary-component-main/assets/images/icon-verbal.svg);
+                position: absolute;
+                left: 54%;
+            }
+        }
+
+
+            .container__right {
+                .skill__name4::before {
+                    content: url(3-Challenge/results-summary-component-main/assets/images/icon-visual.svg);
+                    position: absolute;
+                    left: 54%;
+                }
+            }
+
+
+        }
+
+
+
+
+        @media screen and (max-width: 768px) {
+            .web__container {
+                width: 92%;
+        
+            }
+        
+            .container__right {
+                .skill__name1::before {
+                    content: url(3-Challenge/results-summary-component-main/assets/images/icon-reaction.svg);
+                    position: absolute;
+                    left: 56%;
+                }
+            }
+        
+                .container__right {
+                    .skill__name2::before {
+                        content: url(3-Challenge/results-summary-component-main/assets/images/icon-memory.svg);
+                        position: absolute;
+                        left: 56%;
+                    }
+                }
+        
+        
+                .container__right {
+                    .skill__name3::before {
+                        content: url(3-Challenge/results-summary-component-main/assets/images/icon-verbal.svg);
+                        position: absolute;
+                        left: 56%;
+                    }
+                }
+        
+        
+                    .container__right {
+                        .skill__name4::before {
+                            content: url(3-Challenge/results-summary-component-main/assets/images/icon-visual.svg);
+                            position: absolute;
+                            left: 56%;
+                        }
+                    }
+        
+        
+                }
+
+
+
+
+                    @media screen and (max-width: 375px) {
+                        .web__container {
+                            width: 100%;
+                            height: 100vh;
+                            display: flex;
+                            flex-direction: column;
+                        }
+    
+                        .container__left {
+                            border-radius: 0 0 2rem 2rem;
+                            .left__tittle {
+                                color: var(--color-white);
+                                opacity: 0.6;
+                                margin-top: 1rem;
+                            }
+                        }
+    
+                        .container__left {
+                            .left__result {
+                                margin-top: 0rem;
+                            }
+    
+                    
+                            }
+    
+                            .container__left {
+                                .left__aclaration {
+                                    text-align: center;
+                                    display: flex;
+                                    flex-direction: column;
+                                    align-items: center;
+                                    margin-top: 4rem;
+                                    margin-bottom: 2rem;
+                                }
+                            }
+    
+                            .container__right {
+                                .skill__name1::before {
+                                    content: url(3-Challenge/results-summary-component-main/assets/images/icon-reaction.svg);
+                                    position: absolute;
+                                    left: 12%;
+                                }
+                            }
+    
+                            .container__right {
+                                .skill__name2::before {
+                                    content: url(3-Challenge/results-summary-component-main/assets/images/icon-memory.svg);
+                                    position: absolute;
+                                    left: 12%;
+                                }
+                            }
+    
+                            .container__right {
+                                .skill__name3::before {
+                                    content: url(3-Challenge/results-summary-component-main/assets/images/icon-verbal.svg);
+                                    position: absolute;
+                                    left: 12%;
+                                }
+                            }
+    
+                            .container__right {
+                                .skill__name4::before {
+                                    content: url(3-Challenge/results-summary-component-main/assets/images/icon-visual.svg);
+                                    position: absolute;
+                                    left: 12%;
+                                }
+                            }
+                    
+    
+                        }
+
+
+                
+
+
+
+                @media screen and (max-width: 320px) {
+                    .web__container {
+                        width: 100%;
+                        height: 100vh;
+                        display: flex;
+                        flex-direction: column;
+                    }
+
+                    .container__left {
+                        border-radius: 0 0 2rem 2rem;
+                        .left__tittle {
+                            color: var(--color-white);
+                            opacity: 0.6;
+                            margin-top: 1rem;
+                        }
+                    }
+
+                    .container__left {
+                        .left__result {
+                            margin-top: 0rem;
+                        }
+
+                
+                        }
+
+                        .container__left {
+                            .left__aclaration {
+                                text-align: center;
+                                display: flex;
+                                flex-direction: column;
+                                align-items: center;
+                                margin-top: 4rem;
+                                margin-bottom: 2rem;
+                            }
+                        }
+
+                        .container__right {
+                            .skill__name1::before {
+                                content: url(3-Challenge/results-summary-component-main/assets/images/icon-reaction.svg);
+                                position: absolute;
+                                left: 12%;
+                            }
+                        }
+
+                        .container__right {
+                            .skill__name2::before {
+                                content: url(3-Challenge/results-summary-component-main/assets/images/icon-memory.svg);
+                                position: absolute;
+                                left: 12%;
+                            }
+                        }
+
+                        .container__right {
+                            .skill__name3::before {
+                                content: url(3-Challenge/results-summary-component-main/assets/images/icon-verbal.svg);
+                                position: absolute;
+                                left: 12%;
+                            }
+                        }
+
+                        .container__right {
+                            .skill__name4::before {
+                                content: url(3-Challenge/results-summary-component-main/assets/images/icon-visual.svg);
+                                position: absolute;
+                                left: 12%;
+                            }
+                        }
+                
+
+                    }
+
+                        
+                    
+
+
+                    
+        
+
+
+

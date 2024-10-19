@@ -1,0 +1,254 @@
+
+
+@media screen and (max-width: 1024px) {
+
+    .page__img {
+        width: 500px;
+        border-radius: 1rem;
+        margin-top: -1rem;
+    }
+
+
+    .page__part2, .page__part3, .page__part4 {
+        .part2__instruccion::before {
+            position: absolute;
+            content: "•";
+            left: 296px;
+            color: var(--h2-color);
+        }
+    }
+    
+    
+
+    .page__part2, .page__part3, .page__part4 {
+
+
+        .instruccion1::before {
+            position: absolute;
+            content: "1.";
+            font-weight: 600;
+            left: 296px;
+            color: var(--h2-color);
+        }
+
+        .instruccion2::before {
+            position: absolute;
+            content: "2.";
+            font-weight: 600;
+            left: 296px;
+            color: var(--h2-color);
+        }
+    
+        .instruccion3::before {
+            position: absolute;
+            content: "3.";
+            font-weight: 600;
+            left: 296px;
+            color: var(--h2-color);
+        }
+    
+        .instruccion4::before {
+            position: absolute;
+            content: "4.";
+            font-weight: 600;
+            left: 296px;
+            color: var(--h2-color);
+        }
+    
+        .instruccion5::before {
+            position: absolute;
+            content: "5.";
+            font-weight: 600;
+            left: 296px;
+            color: var(--h2-color);
+        }
+    
+        .instruccion6::before {
+            position: absolute;
+            content: "6.";
+            font-weight: 600;
+            left: 296px;
+            color: var(--h2-color);
+        }
+    }
+
+    
+}
+
+
+@media screen and (max-width: 768px) {
+
+        .page__img {
+            width: 387px;
+            border-radius: 1rem;
+            margin-top: 0rem;
+        }
+
+        .header__image {
+            width: 100%;
+            height: 150px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .page__part2, .page__part3, .page__part4 {
+            .part2__instruccion::before {
+                position: absolute;
+                content: "•";
+                left: 230px;
+                color: var(--h2-color);
+            }
+        }
+
+        .page__part2, .page__part3, .page__part4 {
+
+
+            .instruccion1::before {
+                position: absolute;
+                content: "1.";
+                font-weight: 600;
+                left: 226px;
+                color: var(--h2-color);
+            }
+    
+            .instruccion2::before {
+                position: absolute;
+                content: "2.";
+                font-weight: 600;
+                left: 226px;
+                color: var(--h2-color);
+            }
+        
+            .instruccion3::before {
+                position: absolute;
+                content: "3.";
+                font-weight: 600;
+                left: 226px;
+                color: var(--h2-color);
+            }
+        
+            .instruccion4::before {
+                position: absolute;
+                content: "4.";
+                font-weight: 600;
+                left: 226px;
+                color: var(--h2-color);
+            }
+        
+            .instruccion5::before {
+                position: absolute;
+                content: "5.";
+                font-weight: 600;
+                left: 226px;
+                color: var(--h2-color);
+            }
+        
+            .instruccion6::before {
+                position: absolute;
+                content: "6.";
+                font-weight: 600;
+                left: 226px;
+                color: var(--h2-color);
+            }
+        }
+    
+}
+
+@media screen and (max-width: 426px) {
+
+
+    .web__page {
+        width: 100%;
+        margin-top: 0rem;
+        margin-bottom: 0rem;
+        background-color: var(--bg-color);
+        padding: 1.5rem;
+    }
+
+
+  
+        body {
+            max-width: 1440px;
+            width: 85%;
+            background-color: var(--bg-color);
+        }
+    
+
+        .header__image {
+            width: 98%;
+            height: 128px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-bottom: 4rem;
+        }
+
+    .page__img {
+        width: 438px;
+    }
+
+    .page__part2, .page__part3, .page__part4 {
+        .part2__instruccion::before {
+            position: absolute;
+            content: "•";
+            left: 40px;
+            color: var(--h2-color);
+        }
+    }
+
+    .page__part2, .page__part3, .page__part4 {
+
+
+        .instruccion1::before {
+            position: absolute;
+            content: "1.";
+            font-weight: 600;
+            left: 37px;
+            color: var(--h2-color);
+        }
+
+        .instruccion2::before {
+            position: absolute;
+            content: "2.";
+            font-weight: 600;
+            left: 37px;
+            color: var(--h2-color);
+        }
+    
+        .instruccion3::before {
+            position: absolute;
+            content: "3.";
+            font-weight: 600;
+            left: 37px;
+            color: var(--h2-color);
+        }
+    
+        .instruccion4::before {
+            position: absolute;
+            content: "4.";
+            font-weight: 600;
+            left: 37px;
+            color: var(--h2-color);
+        }
+    
+        .instruccion5::before {
+            position: absolute;
+            content: "5.";
+            font-weight: 600;
+            left: 37px;
+            color: var(--h2-color);
+        }
+    
+        .instruccion6::before {
+            position: absolute;
+            content: "6.";
+            font-weight: 600;
+            left: 37px;
+            color: var(--h2-color);
+        }
+    }
+
+}
+   
+

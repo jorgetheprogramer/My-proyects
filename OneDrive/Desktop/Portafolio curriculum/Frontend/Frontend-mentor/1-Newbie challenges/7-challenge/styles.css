@@ -1,0 +1,191 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@100..900&display=swap');
+
+
+/*COLORS*/
+
+:root{
+    --dark-cyan:hsl(185, 75%, 39%);
+    --very-dark-blue:hsl(229, 23%, 23%);
+    --gray-blue:hsl(227, 10%, 46%);
+    --dark-gray:hsl(0, 0%, 59%);
+}
+
+
+*{
+    font-size: 18px ;
+    
+}
+
+body{
+
+    margin: 0;
+    padding: 0;
+
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+
+    background-image:
+     url(7-challenge/profile-card-component-main/images/bg-pattern-bottom.svg);
+     background-position: 66% 100%;
+    background-repeat: no-repeat;
+    background-color: var(--dark-cyan);
+
+}
+
+body,html{
+    width: 100%;
+    height: 100%;
+}
+
+.web__page{
+    width: 28%;
+    height: 60vh;
+    background-color: white;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    border-radius: 1rem;
+
+    .page__blue{
+        width: 100%;
+        background-image: url(7-challenge/profile-card-component-main/images/bg-pattern-card.svg);
+
+        display: flex;
+        flex: 40%;
+        border-radius: 1rem 1rem 0 0;
+
+        .blue__image-container{
+
+            .image-container__img{
+                width: 6rem;
+                border-radius: 10rem;
+                border: 5px solid white;
+                border-radius: 10rem;
+
+                position: absolute;
+                top: 35%;
+                left: 46%;
+            }
+            
+        }
+       
+        
+    }
+
+    .page__content{
+        width: 100%;
+        display: flex;
+        flex: 60%;
+        flex-direction: column;
+
+
+        .page__profile{
+            display: flex;
+            flex: 60%;
+            flex-direction: row;
+            text-align: center;
+
+        
+            
+
+            .profile__name{
+                font-family: "Kumbh Sans";
+                position: absolute;
+                top: 52%;
+                left: 46%;
+
+              
+            }
+
+            .profile__age{
+                font-family: "Kumbh Sans";
+                position: absolute;
+                top: 51.6%;
+                left: 53.2%;
+
+            }
+
+            .profile__country{
+                font-family: "Kumbh Sans";
+                position: absolute;
+                top: 56%;
+                left: 48%;
+
+                color: var(--gray-blue);
+
+            }
+        }
+
+        .page__social-media{
+            width: 100%;
+            text-align: center;
+
+
+            display: flex;
+            flex: 40%;
+            flex-direction: row;
+            justify-content: space-around;
+
+            border-top: 1px solid var(--gray-blue);
+
+            .social-media__followers{
+                width: 33.33%;
+
+                .followers__nummber{
+                    font-size: 1.7rem;
+                    font-weight: 900;
+                    color: var(--very-dark-blue);
+                }
+
+
+                .followers__tittle{
+                    margin-top: -1.5rem;
+                    color: var(--dark-gray);
+                }
+            }
+
+            .social-media__likes{
+                width: 33.33%;
+
+                .likes__nummber{
+                    font-size: 1.7rem;
+                    font-weight: 900;
+                    color: var(--very-dark-blue);
+                }
+
+                .likes__tittle{
+                    margin-top: -1.5rem;
+                    color: var(--dark-gray);
+                }
+            }
+
+            .social-media__photos{
+                width: 33.33%;
+
+                .photos__tittle{
+                    margin-top: -1.5rem;
+                    color: var(--dark-gray);
+                }
+
+                .photos__nummber{
+                    font-size: 1.7rem;
+                    font-weight: 900;
+                    color: var(--very-dark-blue);
+                }
+            }
+           
+        }
+        
+
+
+    }
+
+}
+
+

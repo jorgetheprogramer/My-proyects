@@ -1,0 +1,371 @@
+
+
+
+
+
+
+/*INICIO ESTILOS GENERALES*/
+
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&family=Young+Serif&display=swap'); /* Young Serif */
+
+
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap'); /* Outfit */
+
+
+body{
+
+    max-width: 1440px ;
+    width: 100% ;
+    background-color: var(--body-color);
+    
+}
+
+*{
+    
+    font-family: "Outfit" ;
+   
+    
+}
+
+h1 {
+    font-family: "Young Serif" !important;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+
+h2{
+    font-family: "Young Serif" !important;
+    font-weight: 400;
+    font-style: normal;
+}
+
+p{
+    font-size: 16px;
+}
+
+
+
+/*FIN ESTILOS GENERALES*/
+
+
+/*COLORES DE LA WEB*/
+
+
+:root{
+
+    --tittle-color: hsl(24, 5%, 18%);
+    --text-color: hsl(30, 10%, 34%);
+
+
+    --box-text-color: hsl(332, 51%, 32%);
+    --box-bg-color: hsl(330, 100%, 98%);
+
+    --h2-color:hsl(14, 45%, 36%);
+
+    --bg-color: hsl(0, 0%, 100%);
+    --body-color: hsl(30, 54%, 90%);
+
+    --border-bottom: hsl(30, 18%, 87%);
+    
+}
+
+
+/*INICIO PÁGINA WEB*/
+
+
+.web__page{
+
+    width: 45%;
+    
+    margin: auto;
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+
+
+    background-color: var(--bg-color);
+    
+    border-radius: 1rem;
+
+    padding: 2.5rem;
+
+}
+
+/*HEADER*/
+
+.page__header{
+    margin-bottom: 4rem;
+}
+
+.header__image{
+    width: 100%;
+    height: 300px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.page__img{
+
+    width: 700px;
+
+    border-radius: 1rem;
+    margin-top: -1rem;
+    
+}
+
+
+.header__subtittle{
+    color: var(--text-color);
+}
+
+
+/*1 PARTE*/
+
+.page__part1{
+    background-color: var(--box-bg-color);
+    padding: 0.4rem 0;
+
+    margin-bottom: 2rem;
+    
+}
+
+.part1__header{
+    color: var(--box-text-color);
+    margin-left: 1.5rem;
+}
+
+.part1__strong{
+    color: var(--text-color);
+
+}
+
+.part1__instruccion{
+    color: var(--text-color);
+    margin-bottom: 1rem;
+}
+
+.part1__instruccions {
+    list-style: none; /* Elimina las viñetas predeterminadas */
+    padding: 0;
+}
+
+.part1__instruccion {
+    position: relative; /* Permite el uso de posicionamiento absoluto en los pseudo-elementos */
+    padding-left: 4rem; /* Añade un espacio para las viñetas personalizadas */
+}
+
+.part1__instruccion::before {
+    content: "•"; /* Usa un punto como viñeta personalizada */
+    position: absolute;
+    left: 2rem;
+
+    color: var(--box-text-color); /* Color de la viñeta */
+    font-size: 20px; /* Tamaño de la viñeta */
+    line-height: 1; /* Ajusta la altura de línea */
+}
+
+.part1__strong {
+    font-weight: bold; /* Estilo de texto fuerte */
+}
+
+
+/*2 PARTE y 3 PARTE*/
+
+.page__part2, .page__part3, .page__part4{
+
+
+  
+    margin-bottom: 2rem;
+    padding-bottom: 2rem;
+    border-bottom: 1px solid var(--border-bottom);
+
+    
+
+    .part2__header, .part3__header, .part4__header{
+        color: var(--h2-color);
+    }
+
+    .part2__instruccions, .part3__instruccions, .part4__instruccions{
+        color: var(--text-color);
+    }
+
+    .part2__instruccion, .part3__instruccion, .part4__instruccion{
+        list-style: none;
+        margin-bottom: 1rem;
+        
+    }
+
+    /*PART 2*/
+  
+    .part2__instruccion::before{
+        position: absolute;
+        content: "•";
+
+
+        left: 410px;
+
+        color: var(--h2-color);
+        
+    }
+
+    .instruccion1::before{
+
+        position: absolute;
+        content: "1.";
+
+        font-weight: 600;
+
+
+        left: 410px;
+
+        color: var(--h2-color);
+        
+    }
+
+    .instruccion2::before{
+
+        position: absolute;
+        content: "2.";
+
+        font-weight: 600;
+
+
+        left: 410px;
+
+        color: var(--h2-color);
+        
+    }
+
+    .instruccion3::before{
+
+        position: absolute;
+        content: "3.";
+
+        font-weight: 600;
+
+
+        left: 410px;
+
+        color: var(--h2-color);
+        
+    }
+
+    .instruccion4::before{
+
+        position: absolute;
+        content: "4.";
+
+        font-weight: 600;
+
+
+        left: 410px;
+
+        color: var(--h2-color);
+        
+    }
+
+    .instruccion5::before{
+
+        position: absolute;
+        content: "5.";
+
+        font-weight: 600;
+
+
+        left: 410px;
+
+        color: var(--h2-color);
+        
+    }
+
+    .instruccion6::before{
+
+        position: absolute;
+        content: "6.";
+
+        font-weight: 600;
+
+
+        left: 410px;
+
+        color: var(--h2-color);
+        
+    }
+
+    /* PART 4 */
+
+    .part4__subtittle{
+        color: var(--text-color);
+        font-weight: 400;
+        font-size: 16px;
+    }
+
+
+    .part4__instruccion{
+        display: flex;
+
+        border-bottom: 1px solid var(--border-bottom);
+
+        margin-left: -2.3rem;
+
+        
+
+        
+
+        
+    }
+
+    .part4__instruccion:last-of-type{
+        border: none;
+        
+
+        
+    }
+
+
+    .part4__text{
+        text-align: center;
+        flex: 0%;
+
+        color: var(--text-color);
+
+    }
+
+    .part4__macronutrients{
+        flex: 60%;
+        text-align: center;
+
+        color: var(--h2-color);
+        font-weight: 600;
+
+    }
+
+
+
+}
+
+/*EXTRA DE PAGE 4*/
+.page__part4{
+    margin-bottom: 0 !important;
+    padding-bottom: 0 !important;
+    border: none !important;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+

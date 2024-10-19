@@ -1,0 +1,294 @@
+
+/*LAPTOP L (1440px)*/
+
+@media (max-width:1441px){
+
+    @import url('https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,200..800;1,200..800&display=swap');
+
+
+
+/* COLORS */
+
+:root{
+    --cyan-color:hsl(179, 62%, 43%);
+    --yellow-color:hsl(71, 73%, 54%);
+
+    --light-gray:hsl(204, 43%, 93%);
+    --gray-blue:hsl(218, 22%, 67%);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body, html{
+    width: 100%;
+    height: 100%;
+}
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    background-color: var(--light-gray);
+}
+
+.web__page{
+    width: 45%;
+    height: 60vh;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+
+   
+    border-radius: 7px;
+    box-shadow: 0px 0px 10px 0px var(--gray-blue);
+
+    background-color: white;
+
+    .page__top{
+        width: 90%;
+        margin: auto;
+        margin-top: 2.5rem;
+
+        display: flex;
+        flex-basis: 45%;
+        flex-direction: column;
+        align-items: start;
+        gap: 1.3rem;
+
+        .page__tittle{
+            font-family: "Karla";
+            color: var(--cyan-color);
+        }
+
+        .page__subtittle{
+            font-family: "Karla";
+            color: var(--yellow-color);
+        }
+
+        .page__text{
+            width: 85%;
+            font-family: "Karla";
+            color: var(--gray-blue);
+        }
+
+
+        
+    }
+
+    .page__bottom{
+        display: flex;
+        flex-basis: 55%;
+        
+
+        .bottom__right{
+            display: flex;
+            flex-direction: column;
+            flex-basis: 50%;
+
+            background-color: hsl(179, 61%, 34%);
+            box-sizing: border-box;
+            border-radius:0 0 0 7px;
+            padding: 2rem;
+            gap: 1rem;
+
+            .bottom__tittle{
+                color: white;
+                font-size: 1rem;
+                font-family: "Karla";
+            }
+
+            .bottom__cuote{
+                display: flex;
+                flex-direction: row;
+                gap: 0.5rem;
+
+                .bottom__price{
+                    font-size: 1.8rem;
+                    font-family: "Karla";
+
+                    color: white;
+                }
+
+                .bottom__month{
+                    margin: auto;
+                    width: 98%;
+                    font-family: "Karla";
+                    color: var(--light-gray);
+                    opacity: 0.5;
+                }
+            }
+
+            .bottom__text{
+                color: var(--light-gray);
+            }
+
+            .bottom__btn{
+                width: 100%;
+                margin: auto;
+                background-color: var(--yellow-color);
+                border-radius: 5px;
+                text-align: center;
+                padding: 0.7rem 0;
+                color: white;
+            
+                font-family: "Karla";
+                
+            }
+
+
+        }
+
+        .bottom__left{
+            display: flex;
+            flex-direction: column;
+            flex-basis: 50%;
+            
+
+            box-sizing: border-box;
+            padding: 1.7rem;
+
+            background-color: var(--cyan-color);
+            border-radius: 0 0 7px 0;
+
+            .left__tittle{
+                color: var(--light-gray);
+                font-size: 1.2rem;
+            }
+
+            .left__text{
+                margin-top: 1rem;
+                text-align: start;
+                width: 60%;
+               
+
+                color: var(--light-gray);
+                font-size: 1rem;
+                opacity: 0.9;
+            }
+
+        }
+    }
+}
+
+
+}
+
+
+/* LAPTOP (1024px) */
+
+@media (max-width:1025px){
+    .web__page {
+    width: 45%;
+    height: 60vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    border-radius: 7px;
+    box-shadow: 0px 0px 10px 0px var(--gray-blue);
+    background-color: white;
+    
+}
+}
+
+
+/* TABLET (768px) */
+
+@media (max-width:769px){
+    .web__page {
+        width: 74%;
+        height: 90vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        border-radius: 7px;
+        box-shadow: 0px 0px 10px 0px var(--gray-blue);
+        background-color: white;
+    }
+    
+}
+
+
+/* MOBILE L (425px) */
+
+@media (max-width:426px){
+
+    .web__page {
+        width: 85%;
+        height: 91vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        border-radius: 7px;
+        box-shadow: 0px 0px 10px 0px var(--gray-blue);
+        background-color: white;
+
+        .page__top {
+            width: 90%;
+            margin: auto;
+            margin-top: 2.5rem;
+            display: flex;
+            flex-basis: 45%;
+            flex-direction: column;
+            align-items: start;
+            gap: 1.3rem;
+            margin-bottom: 3rem;
+        }
+    }
+
+    .page__bottom {
+        display: flex;
+        flex-basis: 55%;
+        flex-direction: column;
+    }
+}
+
+
+/* SAMSUNG GALAXY S20 ULTRA (412px) */
+
+@media (max-width:413px){
+
+    .web__page {
+        width: 85%;
+        height: 80vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        border-radius: 7px;
+        box-shadow: 0px 0px 10px 0px var(--gray-blue);
+        background-color: white;
+
+        .page__top {
+            width: 90%;
+            margin: auto;
+            margin-top: 2.5rem;
+            display: flex;
+            flex-basis: 45%;
+            flex-direction: column;
+            align-items: start;
+            gap: 1.3rem;
+            margin-bottom: 3rem;
+        }
+    }
+
+    .page__bottom {
+        display: flex;
+        flex-basis: 55%;
+        flex-direction: column;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
